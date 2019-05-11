@@ -1,0 +1,33 @@
+{
+  "name": "slack-clone-server",
+  "version": "0.1",
+  "main": "index.js",
+  "author": "Shoten",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "apollo-server-express": "1",
+    "body-parser": "^1.18.3",
+    "connect": "^3.6.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "merge-graphql-schemas": "^1.5.8",
+    "pg": "^7.7.1",
+    "qs-middleware": "^1.0.3",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0"
+  }
+}
